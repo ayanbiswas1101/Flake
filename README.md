@@ -1,4 +1,4 @@
-# Flake ( Under Construction!)
+# Flake ( Under Construction! )
 An open-source css framework based on google's material design just ready to use on your next project.
 
 ## ChangeLog
