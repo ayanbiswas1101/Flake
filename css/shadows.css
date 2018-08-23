@@ -1,0 +1,29 @@
+/*
+	File Name 		: shadow.css
+	Date Created	: Aug 23 2018
+ */
+/* Use Prefix Shadow And Integer As value  */
+
+:root {
+	--shadow-1: 	0px 3px 4.7px 0.3px rgba(0, 0, 0, 0.24),0px 2px 5.88px 0.12px rgba(0, 0, 0, 0.16);
+	--shadow-2: 	0px 3px 4.7px 0.3px rgba(0, 0, 0, 0.24),0px 1px 6.86px 0.14px rgba(0, 0, 0, 0.16);
+	--shadow-3: 	0px 5px 6.58px 0.42px rgba(0, 0, 0, 0.24),0px 2px 9.8px 0.2px rgba(0, 0, 0, 0.16);
+	--shadow-4:		0px 5px 6.58px 0.42px rgba(0, 0, 0, 0.24),0px 2px 9.8px 0.2px rgba(0, 0, 0, 0.16);
+	--shadow-6: 	0px 10px 14.1px 0.9px rgba(0, 0, 0, 0.24),0px 4px 19.6px 0.4px rgba(0, 0, 0, 0.16);
+	--shadow-8: 	0px 13px 18.8px 1.2px rgba(0, 0, 0, 0.24),0px 5px 26.46px 0.54px rgba(0, 0, 0, 0.16);
+	--shadow-9:	 	0px 18px 25.38px 1.62px rgba(0, 0, 0, 0.24),0px 9px 35.28px 0.72px rgba(0, 0, 0, 0.16);
+	--shadow-12: 	0px 20px 28.2px 1.8px rgba(0, 0, 0, 0.24),0px 8px 40.18px 0.82px rgba(0, 0, 0, 0.16);
+	--shadow-16: 	0px 28px 37.6px 2.4px rgba(0, 0, 0, 0.24),0px 11px 51.94px 1.06px rgba(0, 0, 0, 0.16);
+	--shadow-24: 	0px 39px 56.4px 3.6px rgba(0, 0, 0, 0.24),0px 15px 79.38px 1.62px rgba(0, 0, 0, 0.16);
+}
+
+.shadow-1, [shadow~="1"] { box-shadow: var(--shadow-1); }
+.shadow-2, [shadow~="2"] { box-shadow: var(--shadow-2); }
+.shadow-3, [shadow~="3"] { box-shadow: var(--shadow-3); }
+.shadow-4, [shadow~="4"] { box-shadow: var(--shadow-4); }
+.shadow-6, [shadow~="6"] { box-shadow: var(--shadow-6); }
+.shadow-8, [shadow~="8"] { box-shadow: var(--shadow-8); }
+.shadow-9, [shadow~="9"] { box-shadow: var(--shadow-9); }
+.shadow-12, [shadow~="12"] { box-shadow: var(--shadow-12); }
+.shadow-16, [shadow~="16"] { box-shadow: var(--shadow-16); }
+.shadow-24, [shadow~="24"] { box-shadow: var(--shadow-24); }
